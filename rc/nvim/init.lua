@@ -1,9 +1,10 @@
 require("plugins")
-
+require("lsp")
 local cmd = vim.cmd
+local keymap = vim.keymap
+
+
 cmd "colorscheme desert"
+-- https://github.com/VonHeikemen/lsp-zero.nvim/tree/v2.x -> This is my main dependency
 
-require("mason").setup()
-require("mason-lspconfig").setup()
 
-require("lspconfig").lua_ls.setup {}
