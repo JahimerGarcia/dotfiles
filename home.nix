@@ -27,6 +27,9 @@
     pkgs.pavucontrol	
     pkgs.git    
     pkgs.neovim
+    pkgs.go
+    pkgs.cargo
+    pkgs.rustc
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" "DroidSansMono" ]; })
 # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
