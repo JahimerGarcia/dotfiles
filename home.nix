@@ -23,13 +23,13 @@
     # pkgs.hello
     pkgs.openssh
     pkgs.age
-    pkgs.firefox
-    pkgs.pavucontrol	
+    # pkgs.firefox
+    # pkgs.pavucontrol	
     pkgs.git    
     pkgs.neovim
     pkgs.go
-    pkgs.cargo
-    pkgs.rustc
+    pkgs.rustup
+    pkgs.gcc
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" "DroidSansMono" ]; })
 # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
