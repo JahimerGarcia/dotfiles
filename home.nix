@@ -25,12 +25,16 @@
     pkgs.age
     pkgs.unzip
  #pkgs.pavucontrol	
+    pkgs.ponyc
     pkgs.lobster
     pkgs.dale
     pkgs.git    
     pkgs.neovim
     pkgs.go
     pkgs.rustup
+    pkgs.clang-tools
+    pkgs.zig
+    pkgs.zls
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" "DroidSansMono" ]; })
 # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
